@@ -1,4 +1,6 @@
 export default class DataHora {
+    elementoData;
+    elementoHora;
     constructor(elementoData = document.querySelector("#datetime > div:nth-child(2)"), elementoHora = document.querySelector("#datetime time ")) {
         this.elementoData = elementoData;
         this.elementoHora = elementoHora;
